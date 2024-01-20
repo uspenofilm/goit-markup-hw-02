@@ -1,144 +1,157 @@
 body {
-        font-family: "Roboto",
-            sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
-ul {list-style-type: none;}
+ul {
+  list-style-type: none;
+}
 
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
 .title {
-color: #2E2F42;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1, 11;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .subtitle {
-    color: #2E2F42;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1,2;
-        letter-spacing: 0.4px;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .text {
-    color: #434455;
-        font-size: 16px;
-        line-height: 1,5;
-        letter-spacing: 0.32px;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* === HEADER === */
 .logo {
-    color: #2E2F42;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1,166;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.logo span {
-    color:  #4D5AE5;    
+.header-logo {
+  color: #2E2F42;
 }
 
-.menu-item a {
-    color: #2E2F42;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1,5;
-        letter-spacing: 0.32px;
+.menu-item-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.address-item a {
-    color: inherit;
-        font-size: 16px;
-        font-style: normal;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+.menu-item-link:hover {
+    color: #404bbf
+}
+
+.menu-item-link:focus {
+    color: #404bbf
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .address-item a:hover {
-color: #4D5AE5;
+  color: #404bbf;
 }
 
 .address-item a:focus {
-color: #4D5AE5;
+  color: #404bbf;
 }
 /* ============== */
 
 /* === HERO === */
 .hero {
-    background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 .hero-title {
-    color: #FFFFFF;
-        text-align: center;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 1.12px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1,5;
-        letter-spacing: 0.64px;
-    cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: #404bbf;
+}
+
+.hero-btn:focus {
+    background-color: #404bbf;
 }
 
 .hero-btn:active {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 /* ============= */
 
-/* === VALUES === */
-.visually-hidden {
-position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-/* ============== */
-
 /* === TEAM === */
 .team {
-    background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .team-member {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 /* ============== */
 
-footer {
-    background-color: #2E2F42;
-    color: #F4F4FD;
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .footer-logo {
-    color: inherit;
+  color: #F4F4FD;
+font-family: Raleway. sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-text {
-        font-size: 16px;
-        line-height: 1,5;
-        letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
